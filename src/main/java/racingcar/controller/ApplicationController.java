@@ -12,6 +12,7 @@ public class ApplicationController {
     }
 
     public void run(){
-        inputView.printInitialMessage();
+        inputView.getPlayerInput();
+
     }
 }
