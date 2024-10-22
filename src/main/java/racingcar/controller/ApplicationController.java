@@ -13,6 +13,8 @@ public class ApplicationController {
 
     public void run(){
         inputView.getPlayerInput();
+        inputView.getMoveNumber();
+
 
     }
 }
